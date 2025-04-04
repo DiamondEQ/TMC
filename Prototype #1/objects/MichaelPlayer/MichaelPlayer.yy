@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"PMidle",
-    "path":"sprites/PMidle/PMidle.yy",
+    "name":"MichaelIdleDown",
+    "path":"sprites/MichaelIdleDown/MichaelIdleDown.yy",
   },
   "spriteMaskId":null,
   "visible":true,

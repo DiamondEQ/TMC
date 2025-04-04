@@ -4,7 +4,7 @@ var DownKey = keyboard_check(vk_down);
 var UpKey = keyboard_check(vk_up);
 var RightKey = keyboard_check(vk_right);
 var LeftKey = keyboard_check(vk_left);
-var AttackKey = keyboard_check(vk_control);
+
 
 var xPos = RightKey - LeftKey;
 var yPos = DownKey - UpKey;
@@ -15,36 +15,38 @@ move_and_collide(xPos * MichaelSpeed, yPos * MichaelSpeed, Border, 4, 0, 0, Mich
 
 //DOWN
 if keyboard_check(vk_down) {
-	sprite_index = PMRun;
+	sprite_index = MichaelRunDown;
 }
 
 if keyboard_check_released(vk_down) {
-	sprite_index = PMidle;
+	sprite_index = MichaelIdleDown;
 }
 
 //UP
 if keyboard_check(vk_up) {
-	sprite_index = PMBRun;
+	sprite_index = MichaelRunUp;
 }
 
 if keyboard_check_released(vk_up) {
-	sprite_index = PMidleBack;
+	sprite_index = MichaelIdleUp;
 }
 
 //RIGHT
 if keyboard_check(vk_right) {
-	sprite_index = PMRRun;
+	sprite_index = MichaelRunRight;
 }
 
 if keyboard_check_released(vk_right) {
-	sprite_index = PMidleRight;
+	sprite_index = MichaelIdleRight;
 }
 
 //LEFT
 if keyboard_check(vk_left) {
-	sprite_index = PMLRun;
+	sprite_index = MichaelRunLeft;
 }
 
 if keyboard_check_released(vk_left) {
-	sprite_index = PMidleLeft;
+	sprite_index = MichaelIdleLeft;
 }
+
+SwordAbilityMichael();
