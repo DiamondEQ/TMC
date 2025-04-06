@@ -26,10 +26,11 @@ MovementReset = time_source_create(time_source_game, 0.4, time_source_units_seco
 if (DashEnabled) && (DashKey)  { // Cooldown system for the dashing, If the dash key is pressed, toggle the cooldown and flash effect
 	
 	//array_push()
-	KlaraSpeed = 10;
+	KlaraSpeed = 11;
 	DashAlpha = 1;
 	DashEnabled = false;
 	
+	audio_play_sound(DashSound, 1, false);
 	//var DashDirection = point_direction(0, 0, xPos, yPos); // I'm trying to have it be a forced move and direction instead of just a speed boost
 	//xDashDirection = lengthdir_x(DashSpeed, xPos);
 	//yDashDirection = lengthdir_y(DashSpeed, yPos);

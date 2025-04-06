@@ -1,4 +1,4 @@
-
+// The way I'm having these scripts be called everytime could be the issue. We may need to go back to alarms for abilities
 
 KlaraMovement(); // How the player moves and sprite changes
 

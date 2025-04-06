@@ -5,3 +5,4 @@ MichaelMaxHP = 3;
 MichaelDamage = 1
 
 SlashEnabled = true;
+
