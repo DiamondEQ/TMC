@@ -60,6 +60,7 @@
     {"id":{"name":"KlaraMovement","path":"scripts/KlaraMovement/KlaraMovement.yy",},},
     {"id":{"name":"MichaelMovement","path":"scripts/MichaelMovement/MichaelMovement.yy",},},
     {"id":{"name":"SwordAbilityMichael","path":"scripts/SwordAbilityMichael/SwordAbilityMichael.yy",},},
+    {"id":{"name":"TrainRepairs","path":"scripts/TrainRepairs/TrainRepairs.yy",},},
     {"id":{"name":"DashEffect","path":"shaders/DashEffect/DashEffect.yy",},},
     {"id":{"name":"DashSound","path":"sounds/DashSound/DashSound.yy",},},
     {"id":{"name":"SwordSlashSound","path":"sounds/SwordSlashSound/SwordSlashSound.yy",},},
@@ -98,9 +99,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"TestGame","path":"rooms/TestGame/TestGame.yy",},},
     {"roomId":{"name":"TestMainMenu","path":"rooms/TestMainMenu/TestMainMenu.yy",},},
     {"roomId":{"name":"TestDialogue","path":"rooms/TestDialogue/TestDialogue.yy",},},
+    {"roomId":{"name":"TestGame","path":"rooms/TestGame/TestGame.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
