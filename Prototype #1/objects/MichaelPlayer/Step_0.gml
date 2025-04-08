@@ -14,7 +14,6 @@ move_and_collide(xPos * MichaelSpeed, yPos * MichaelSpeed, Border, 4, 0, 0, Mich
 // SPRITE CHANGES (Going to change to switches once I figure out them
 
 //DOWN
-
 if keyboard_check(vk_down) {
 	sprite_index = MichaelRunDown;
 	//show_debug_log(true);

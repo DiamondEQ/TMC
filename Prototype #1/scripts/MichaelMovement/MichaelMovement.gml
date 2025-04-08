@@ -4,7 +4,7 @@ var DownKey = keyboard_check(vk_down);
 var UpKey = keyboard_check(vk_up);
 var RightKey = keyboard_check(vk_right);
 var LeftKey = keyboard_check(vk_left);
-var AttackKey = keyboard_check(vk_control);
+var AttackKey = keyboard_check(ord("N"));
 
 var xPos = RightKey - LeftKey;
 var yPos = DownKey - UpKey;
