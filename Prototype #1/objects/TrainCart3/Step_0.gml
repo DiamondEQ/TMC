@@ -16,6 +16,6 @@ if (repair_type == 3) {
 
     // Fail if time runs out
     if (repair_timer <= 0 && input_sequence != repair_code) {
-        show_debug_message("Repair failed!");
+        //show_debug_message("Repair failed!"); This is being spammed lol
     }
 }

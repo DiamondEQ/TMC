@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"MichaelRunRight",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":31,
-  "bbox_left":6,
-  "bbox_right":25,
+  "bbox_left":5,
+  "bbox_right":26,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

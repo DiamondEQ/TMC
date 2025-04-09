@@ -43,6 +43,7 @@
     {"id":{"name":"Border","path":"objects/Border/Border.yy",},},
     {"id":{"name":"BugtiveTest","path":"objects/BugtiveTest/BugtiveTest.yy",},},
     {"id":{"name":"DialogueBoxTest","path":"objects/DialogueBoxTest/DialogueBoxTest.yy",},},
+    {"id":{"name":"EnemyHandler","path":"objects/EnemyHandler/EnemyHandler.yy",},},
     {"id":{"name":"KlaraPlayer","path":"objects/KlaraPlayer/KlaraPlayer.yy",},},
     {"id":{"name":"KlaraPortraitTest","path":"objects/KlaraPortraitTest/KlaraPortraitTest.yy",},},
     {"id":{"name":"MichaelPlayer","path":"objects/MichaelPlayer/MichaelPlayer.yy",},},

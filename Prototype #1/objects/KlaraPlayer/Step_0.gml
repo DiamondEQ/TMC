@@ -1,9 +1,15 @@
-// The way I'm having these scripts be called everytime could be the issue. We may need to go back to alarms for abilities
+// Movement Keys
 
 KlaraMovement(); // How the player moves and sprite changes
 
-DashAbilityKlara();
 
 // DASH EFFECT \\ (Trying to figure out how to make the code better and more functional
-//var DashKey = keyboard_check_pressed(vk_lshift);
 
+   
+if (DashAlpha > 0) { DashAlpha -= 0.02;} // Make the flash effect fade out
+
+
+if keyboard_check_pressed(vk_backspace)
+{
+	show_debug_overlay(true);
+}

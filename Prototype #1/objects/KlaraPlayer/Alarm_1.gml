@@ -1,0 +1,1 @@
+KlaraSpeed = 5;

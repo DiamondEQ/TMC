@@ -1,4 +1,8 @@
-draw_self();
+//draw_self();
+
+with(KlaraPlayer){
+	draw_self();
+}
 
 if (DashAlpha > 0) {
 	shader_set(DashEffect);

@@ -1,50 +1,53 @@
 function MichaelMovement(){ // Just replace the keys
 
-var DownKey = keyboard_check(vk_down);
-var UpKey = keyboard_check(vk_up);
-var RightKey = keyboard_check(vk_right);
-var LeftKey = keyboard_check(vk_left);
-var AttackKey = keyboard_check(ord("N"));
+var KKey = keyboard_check(ord("K"));
+var IKey = keyboard_check(ord("I"));
+var LKey = keyboard_check(ord("L"));
+var JKey = keyboard_check(ord("J"));
 
-var xPos = RightKey - LeftKey;
-var yPos = DownKey - UpKey;
+var xPos = LKey - JKey;
+var yPos = KKey - IKey;
+
 
 
 move_and_collide(xPos * MichaelSpeed, yPos * MichaelSpeed, Border, 2, 0, 0, MichaelSpeed, MichaelSpeed);
 
-switch (keyboard_key) // THIS SWITCH FUNCTION IS USED TO GIVE THE PLAYER RUNNING ANIMATIONS
-{
-    case ord("S"):
-       sprite_index = KlaraRunS;
-    break;
 
-    case ord("W"):
-       sprite_index = KlaraRunW;
-    break;
 
-    case ord("D"):
-       sprite_index = KlaraRunD;
-    break;
-
-    case ord("A"):
-       sprite_index = KlaraRunA;
-    break;
+if keyboard_check((ord("K"))) {
+	sprite_index = MichaelRunDown;
 }
 
-if keyboard_check_released((ord("S"))) {
-	sprite_index = KlaraIdleS;
+if keyboard_check_released((ord("K"))) {
+	sprite_index = MichaelIdleDown;
 }
 
-if keyboard_check_released((ord("W"))) {
-	sprite_index = KlaraIdleW;
+//UP
+if keyboard_check((ord("I"))) {
+	sprite_index = MichaelRunUp;
 }
 
-if keyboard_check_released((ord("D"))) {
-	sprite_index = KlaraIdleD;
+if keyboard_check_released((ord("I"))) {
+	sprite_index = MichaelIdleUp;
 }
 
-if keyboard_check_released((ord("A"))) {
-	sprite_index = KlaraIdleA;
+//RIGHT
+if keyboard_check((ord("L"))) {
+	sprite_index = MichaelRunRight;
 }
+
+if keyboard_check_released((ord("L"))) {
+	sprite_index = MichaelIdleRight;
+}
+
+//LEFT
+if keyboard_check((ord("J"))) {
+	sprite_index = MichaelRunLeft;
+}
+
+if keyboard_check_released((ord("J"))) {
+	sprite_index = MichaelIdleLeft;
+}
+
 
 }

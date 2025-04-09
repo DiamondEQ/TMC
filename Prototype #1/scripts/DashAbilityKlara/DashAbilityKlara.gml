@@ -1,7 +1,7 @@
 function DashAbilityKlara(){
 	
 var SKey = keyboard_check(ord("S"));
-var WKey = keyboard_check(ord("W")); // Let me know if theres a better way to call the variables from the other script
+var WKey = keyboard_check(ord("W")); 
 var DKey = keyboard_check(ord("D"));
 var AKey = keyboard_check(ord("A"));
 
@@ -31,11 +31,6 @@ if (DashEnabled) && (DashKey)  { // Cooldown system for the dashing, If the dash
 	DashEnabled = false;
 	
 	audio_play_sound(DashSound, 1, false);
-	//var DashDirection = point_direction(0, 0, xPos, yPos); // I'm trying to have it be a forced move and direction instead of just a speed boost
-	//xDashDirection = lengthdir_x(DashSpeed, xPos);
-	//yDashDirection = lengthdir_y(DashSpeed, yPos);
-	
-	//DashDirection = point_direction(0, 0, xPos, yPos); // (Tried to find a way to make omni direction smoother
 	time_source_start(MovementReset);
 	time_source_start(DashCooldown);
 	
