@@ -1,3 +1,4 @@
+
 if (repair_type == 1) {
     if (keyboard_check(ord(repair_key))) {
         repair_progress += 1;

@@ -1,4 +1,1 @@
-SwordDamage = 1
-
-
-
+SwordDamage = 1;

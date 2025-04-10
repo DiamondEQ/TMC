@@ -7,3 +7,4 @@ DashAlpha = 0;
 DashEnabled = true;
 DashSpeed = 7;
 
+HoldingScrap = false;
