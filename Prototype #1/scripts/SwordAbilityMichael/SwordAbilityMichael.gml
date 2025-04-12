@@ -5,31 +5,27 @@ var IKey = keyboard_check(ord("I"));
 var LKey = keyboard_check(ord("L"));
 var JKey = keyboard_check(ord("J"));
 
+var HorizontalKeys = real(keyboard_check(ord("J"))) - real(keyboard_check(ord("L")))
+var VerticalKeys = real(keyboard_check(ord("K"))) - real(keyboard_check(ord("I")))
 
-var xVer = JKey - LKey; // X Axis
-var yHor = KKey - IKey; // Y Axis
+
+
+if (HorizontalKeys != 0 or VerticalKeys != 0)
+{
+	facing = point_direction(0, 0, VerticalKeys, HorizontalKeys);
+}
+
 
 var AttackKey = keyboard_check(vk_enter);
 
-
-
-//SlashCooldown = time_source_create(time_source_game, 0.5, time_source_units_seconds,function()
-//{
-//	SlashEnabled = true; 
-//}, []);
-
-
-
-if (SlashEnabled) && (AttackKey)  { // Cooldown system for the dashing, If the dash key is pressed, toggle the cooldown and flash effect
-	
+if (SlashEnabled && AttackKey) { // Cooldown system for the dashing, If the dash key is pressed, toggle the cooldown and flash effect
 	SlashEnabled = false;
-    var SwordSpawn = (instance_create_depth(x, y, depth - 100, SwordSlash)); // Spawns the sword
-	SwordSpawn.image_angle = point_direction(0, 0, yHor, xVer); // Makes the sword swing in the direction your walking in. (Needs to be fixed for standing)
-	audio_play_sound(SwordSlashSound, 1, false); // Plays sword swing lol
-	//time_source_start(SlashCooldown); // Starts the function cooldown
+	var SwordSpawn = (instance_create_depth(x, y, depth - 100, SwordSlash)); // Spawns the sword
+	SwordSpawn.image_angle = facing; // Makes the sword swing in the direction your walking in. 
 	
+	audio_play_sound(SwordSlashSound, 1, false); // Plays sword swing lol
+	
+	alarm[0] = 30; // Slash cooldown
+	
+	}
 }
-   
-
-
-} // End of the script :p

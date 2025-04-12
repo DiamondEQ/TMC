@@ -6,3 +6,10 @@ MichaelDamage = 1
 
 SlashEnabled = true;
 
+facing = 0;
+
+knockbackX = 0;
+knockbackY = 0;
+
+PlayerKnockbackX = x;
+PlayerKnockbackY = y;

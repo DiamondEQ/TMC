@@ -13,3 +13,9 @@ if keyboard_check_pressed(vk_backspace)
 {
 	show_debug_overlay(true);
 }
+
+//if (alarm[2] >= 0)
+//{
+//	 x += knockbackX * 3;
+//	 y += knockbackY * 3;
+//}

@@ -1,6 +1,6 @@
 if (instance_number(Scrap) < 3)
 {
-	instance_create_layer(random_range(128, 1216), random_range(256, 672),"Instances",Scrap);
+	instance_create_layer(random_range(88, 1216), random_range(256, 672),"Instances",Scrap);
 	Scrap.image_xscale = 3;
 	Scrap.image_yscale = 3;
 
