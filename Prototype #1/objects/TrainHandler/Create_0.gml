@@ -1,1 +1,1 @@
-TrainHp = 3;
+global.TrainHp = 3;

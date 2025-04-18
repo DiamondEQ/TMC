@@ -1,6 +1,7 @@
 // Main variables will go here such as HP, Player Speed, and other things.
 KlaraSpeed = 5;
-KlaraHP = 3;
+global.KlaraHP = 3;
+global.KlaraAlive = true;
 KlaraMaxHP = 3;
 
 DashColor = c_purple;

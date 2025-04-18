@@ -1,5 +1,5 @@
 if (alarm[2] < 0){
-	KlaraHP -= 1;
+	global.KlaraHP -= 1;
 	
 	//knockbackX = sign(x - other.x);
 	//knockbackY = sign(y - other.y);

@@ -1,4 +1,6 @@
-if (MichaelHP > 0)
+function MichaelHPScript(){
+	
+if (global.MichaelHP > 0)
 {
 	draw_sprite(sMichael, 1, 64, 56);
 }
@@ -8,7 +10,7 @@ else
 }
 
 
-switch (MichaelHP)
+switch (global.MichaelHP)
 {
 	case 3:
        draw_sprite(MichaelHealthUi3, 1, 160, 63);
@@ -22,12 +24,10 @@ switch (MichaelHP)
        draw_sprite(MichaelHealthUi1, 1, 160, 63);
     break;
 
-    case 0:
-       draw_sprite(CrackedHealthUi, 1, 160, 63);
-    break;
-	
 	default:
        draw_sprite(CrackedHealthUi, 1, 160, 63);
     break;
+	}
+	
 }
 

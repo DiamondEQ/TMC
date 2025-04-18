@@ -1,0 +1,1 @@
+if (global.MichaelAlive == false && global.KlaraAlive == false ){room_restart()}
