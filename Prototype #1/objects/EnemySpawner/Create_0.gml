@@ -1,2 +1,1 @@
-alarm[0] = 160;
-TimerValue = 200;
+global.TimerValue = 200;

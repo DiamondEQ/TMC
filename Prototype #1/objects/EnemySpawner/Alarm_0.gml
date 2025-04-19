@@ -1,12 +1,11 @@
-if (instance_number(BugtiveTest) < 3)
+if (instance_number(BugtiveTest) < 6) // There needs to be a general value for all enemies here
 {
 	instance_create_layer(random_range(79, 1255), 890,"Instances",BugtiveTest);
-	Scrap.image_xscale = 3;
-	Scrap.image_yscale = 3;
-
-	alarm[0] = TimerValue;
+	instance_create_layer(random_range(79, 1255), 890,"Instances",HotHeadTest);
+	
+	alarm[0] = global.TimerValue;
 }
 else 
 {
-	alarm[0] = TimerValue;
+	alarm[0] = global.TimerValue;
 }

@@ -11,3 +11,4 @@ if (DashAlpha > 0) {
 	
 	shader_reset();
 }
+

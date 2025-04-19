@@ -11,3 +11,5 @@ DashEnabled = true;
 DashSpeed = 7;
 
 HoldingScrap = false;
+
+PlayeriFrames = false;
