@@ -10,6 +10,14 @@ DashAlpha = 0;
 DashEnabled = true;
 DashSpeed = 7;
 
+DashHitCooldown = 0; // prevents multiple hits per dash
+dashDirX = 0;
+dashDirY = 0;
+
 HoldingScrap = false;
 
 PlayeriFrames = false;
+
+KlaraCanMove = true; // Blocks movement during knockback
+knockbackX = 0;
+knockbackY = 0;

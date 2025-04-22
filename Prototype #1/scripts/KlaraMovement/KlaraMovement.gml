@@ -1,4 +1,5 @@
 function KlaraMovement(){
+	if (!KlaraCanMove) return; // Cancel movement if knocked back
 
 var SKey = keyboard_check(ord("S"));
 var WKey = keyboard_check(ord("W"));

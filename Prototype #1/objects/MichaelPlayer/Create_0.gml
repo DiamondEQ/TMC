@@ -9,7 +9,7 @@ MichaelDamage = 1;
 SlashEnabled = true;
 
 facing = 0;
-
+MichaelCanMove = true;
 knockbackX = 0;
 knockbackY = 0;
 

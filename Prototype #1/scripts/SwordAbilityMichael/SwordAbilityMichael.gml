@@ -20,8 +20,8 @@ var AttackKey = keyboard_check(vk_enter);
 
 if (SlashEnabled && AttackKey) { // Cooldown system for the dashing, If the dash key is pressed, toggle the cooldown and flash effect
 	SlashEnabled = false;
-	var SwordSpawn = (instance_create_depth(x, y, depth - 100, SwordSlash)); // Spawns the sword
-	SwordSpawn.image_angle = facing; // Makes the sword swing in the direction your walking in. 
+	var SwordSpawn = instance_create_depth(x, y, depth - 100, SwordSlash); // Spawns the sword
+	SwordSpawn.owner = id; // Give the sword a reference to Michael
 	
 	audio_play_sound(SwordSlashSound, 1, false); // Plays sword swing lol
 	

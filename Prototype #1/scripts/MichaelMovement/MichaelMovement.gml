@@ -1,4 +1,5 @@
 function MichaelMovement(){ // Just replace the keys
+if (!MichaelCanMove) return; // Don't move if in knockback
 
 var KKey = keyboard_check(ord("K"));
 var IKey = keyboard_check(ord("I"));
@@ -48,6 +49,5 @@ if keyboard_check((ord("J"))) {
 if keyboard_check_released((ord("J"))) {
 	sprite_index = MichaelIdleLeft;
 }
-
 
 }
