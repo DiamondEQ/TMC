@@ -36,7 +36,7 @@ if keyboard_check_pressed(vk_backspace)
 
 if (alarm[2] > 0) {
 	KlaraCanMove = false;
-	move_and_collide(knockbackX * 3, knockbackY * 3, Border, 2, 0, 0, KlaraSpeed, KlaraSpeed);
+	move_and_collide(knockbackX * 4, knockbackY * 4, Border, 2, 0, 0, KlaraSpeed, KlaraSpeed);
 } else {
 	KlaraCanMove = true;
 	knockbackX = 0;
