@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"UiTest2",
-    "path":"sprites/UiTest2/UiTest2.yy",
+    "name":"sQuitButton",
+    "path":"sprites/sQuitButton/sQuitButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

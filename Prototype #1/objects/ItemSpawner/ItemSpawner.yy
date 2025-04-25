@@ -9,8 +9,8 @@
   "name":"ItemSpawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Executors",
+    "path":"folders/Objects/Executors.yy",
   },
   "parentObjectId":null,
   "persistent":false,

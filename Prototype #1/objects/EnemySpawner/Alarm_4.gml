@@ -1,0 +1,1 @@
+instance_create_layer(random_range(79, 1255), 890,"Instances",AwakenedBugtive);

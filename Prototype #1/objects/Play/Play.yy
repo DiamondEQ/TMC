@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"UiTest",
-    "path":"sprites/UiTest/UiTest.yy",
+    "name":"sPlayButton",
+    "path":"sprites/sPlayButton/sPlayButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

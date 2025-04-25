@@ -21,3 +21,5 @@ PlayeriFrames = false;
 KlaraCanMove = true; // Blocks movement during knockback
 knockbackX = 0;
 knockbackY = 0;
+
+visible = true;

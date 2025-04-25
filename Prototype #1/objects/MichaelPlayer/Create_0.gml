@@ -13,3 +13,4 @@ MichaelCanMove = true;
 knockbackX = 0;
 knockbackY = 0;
 
+visible = true;

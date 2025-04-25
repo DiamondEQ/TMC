@@ -6,7 +6,6 @@ knockbackX = 0;
 knockbackY = 0;
 knockback_timer = 0;
 
-
 	
 //alarm[0] = 120;
 
