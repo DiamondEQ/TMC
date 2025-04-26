@@ -1,0 +1,2 @@
+global.PowerUp = false;
+

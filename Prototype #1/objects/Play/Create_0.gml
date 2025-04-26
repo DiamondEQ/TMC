@@ -1,1 +1,3 @@
 ButtonInteract = false;
+FadeActive = false;
+

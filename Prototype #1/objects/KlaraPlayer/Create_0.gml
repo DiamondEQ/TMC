@@ -1,5 +1,6 @@
 // Main variables will go here such as HP, Player Speed, and other things.
 KlaraSpeed = 5;
+MichaelBaseSpeed = 5;
 global.KlaraHP = 3;
 global.KlaraAlive = true;
 KlaraMaxHP = 3;

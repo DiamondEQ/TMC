@@ -13,6 +13,8 @@ var yPos = KKey - IKey;
 
 move_and_collide(xPos * MichaelSpeed, yPos * MichaelSpeed, Border, 2, 0, 0, MichaelSpeed, MichaelSpeed);
 
+if (global.PowerUp = true){MichaelSpeed = 7.5}
+else if (global.PowerUp = false){MichaelSpeed = 4.5}
 
 
 if keyboard_check((ord("K"))) {

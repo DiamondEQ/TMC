@@ -12,6 +12,8 @@ var yPos = SKey - WKey;
 
 move_and_collide(xPos * KlaraSpeed, yPos * KlaraSpeed, Border, 2, 0, 0, KlaraSpeed, KlaraSpeed);
 
+if (global.PowerUp = true){KlaraSpeed = 8}
+else if (global.PowerUp = false){MichaelSpeed = 8}
 
 //DOWN
 if keyboard_check((ord("S"))) {

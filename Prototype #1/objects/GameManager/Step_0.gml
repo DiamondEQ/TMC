@@ -10,3 +10,4 @@ else if (global.KlaraAlive == false)
 {
 	
 }
+

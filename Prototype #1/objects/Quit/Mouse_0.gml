@@ -1,1 +1,5 @@
-alarm_set(0,60); // The second parameter gpes in frames so 60 frames = 1 second
+if (ButtonInteract == false){
+FadeActive = true;
+ButtonInteract = true;
+audio_play_sound(UiSound, 1, false);
+}

@@ -8,12 +8,14 @@
   "instanceCreationOrder":[
     {"name":"RetryButton","path":"rooms/GameOver/GameOver.yy",},
     {"name":"MenuButton","path":"rooms/GameOver/GameOver.yy",},
+    {"name":"Fade2","path":"rooms/GameOver/GameOver.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"RetryButton","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"RetryButton","objectId":{"name":"Retry","path":"objects/Retry/Retry.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":2.5,"x":544.0,"y":320.0,},
         {"$GMRInstance":"v1","%Name":"MenuButton","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"MenuButton","objectId":{"name":"BackToMenu","path":"objects/BackToMenu/BackToMenu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":2.5,"x":544.0,"y":544.0,},
+        {"$GMRInstance":"v1","%Name":"Fade2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"Fade2","objectId":{"name":"ScreenFade","path":"objects/ScreenFade/ScreenFade.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"BackgroundTest","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":"_filter_vignette","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"BackgroundTest","properties":[
         {"name":"g_VignetteEdges","type":0,"value":"0.5",},
