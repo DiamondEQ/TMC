@@ -2,29 +2,31 @@ if (!is_active_repair) exit;
 
 if (repair_type == 3) {
     repair_timer -= 1;
-
-    // Check key inputs
-    var keys = "ASDW";
-    for (var i = 1; i <= string_length(keys); i++) {
-        var key_char = string_char_at(keys, i);
-        if (keyboard_check_pressed(ord(key_char))) {
-            input_sequence += key_char;
+	var keys = "ASDW";
+  for (var i = 1; i <= string_length("ASDW"); i++) {
+    var k = string_char_at("ASDW", i);
+    if (keyboard_check_pressed(ord(k))) {
+        input_sequence += k;
+        if (string_char_at(repair_code, string_length(input_sequence)) != k) {
+            // Wrong key resets sequence
+            ui_show_result = 0;
+            ui_result_timer = 60;
+            input_sequence = "";
         }
-    }
-
-    // Check success
-    if (input_sequence == repair_code) {
-        show_debug_message("Cart 3 repaired!");
-        is_active_repair = false;
-        global.TrainHp += 1;
-        audio_play_sound(TrainFixedSound, 1, false);
-    }
-
-    // Fail on timer out
-    if (repair_timer <= 0 && input_sequence != repair_code) {
-        show_debug_message("Cart 3 repair failed!");
-        is_active_repair = false;
-        // (Optional: trigger retry or damage penalty here)
     }
 }
 
+if (input_sequence == repair_code) {
+    is_active_repair = false;
+    global.TrainHp += 1;
+    audio_play_sound(TrainFixedSound, 1, false);
+    ui_show_result = 1;
+    ui_result_timer = 60;
+}
+
+if (repair_timer <= 0 && input_sequence != repair_code) {
+    is_active_repair = false;
+    ui_show_result = 0;
+    ui_result_timer = 60;
+}
+}
