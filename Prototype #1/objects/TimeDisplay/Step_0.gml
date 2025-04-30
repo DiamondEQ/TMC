@@ -54,3 +54,8 @@ if (GameTimeSeconds == 30 && GameTimeMinutes == 1) // I will add a special event
 	 EnemySpawner.EnemyLimit = 100;
 	 global.TimerValue = 160;
 }
+
+if (GameTimeSeconds == 00 && GameTimeMinutes == 0) // I will add a special event for the boss later
+{
+	room_goto(WinScreen)
+}
