@@ -12,12 +12,25 @@ var yPos = SKey - WKey;
 
 move_and_collide(xPos * KlaraSpeed, yPos * KlaraSpeed, Border, 2, 0, 0, KlaraSpeed, KlaraSpeed);
 
-if (global.PowerUp = true){KlaraSpeed = 8}
-else if (global.PowerUp = false){MichaelSpeed = 8}
+if (DashSpeedCheck == true)
+{
+	if (global.PowerUp = true)
+		{
+		KlaraSpeed = 8;
+		DashSpeedCheck = false;
+		}
+	
+	else if (global.PowerUp = false)
+		{
+		KlaraSpeed = 5;
+		DashSpeedCheck = false;
+		}
+}
 
 //DOWN
 if keyboard_check((ord("S"))) {
 	sprite_index = KlaraRunS;
+	ProjectileDirection = 270;
 }
 
 if keyboard_check_released((ord("S"))) {
@@ -27,6 +40,7 @@ if keyboard_check_released((ord("S"))) {
 //UP
 if keyboard_check((ord("W"))) {
 	sprite_index = KlaraRunW;
+	ProjectileDirection = 90;
 }
 
 if keyboard_check_released((ord("W"))) {
@@ -36,6 +50,7 @@ if keyboard_check_released((ord("W"))) {
 //RIGHT
 if keyboard_check((ord("D"))) {
 	sprite_index = KlaraRunD;
+	ProjectileDirection = 0;
 }
 
 if keyboard_check_released((ord("D"))) {
@@ -45,29 +60,16 @@ if keyboard_check_released((ord("D"))) {
 //LEFT
 if keyboard_check((ord("A"))) {
 	sprite_index = KlaraRunA;
+	ProjectileDirection = 180;
+
 }
 
 if keyboard_check_released((ord("A"))) {
 	sprite_index = KlaraIdleA;
 }
 
+if (xPos != 0 || yPos != 0){
+	ProjectileDirection = point_direction(0, 0, xPos, yPos)
+}
 
-//switch (keyboard_key) // THIS SWITCH FUNCTION IS USED TO GIVE THE PLAYER RUNNING ANIMATIONS. BREAKS FOR SOME REASON
-//{
-//    case ord("S"):
-//       sprite_index = KlaraRunS;
-//    break;
-
-//    case ord("W"):
-//       sprite_index = KlaraRunW;
-//    break;
-
-//    case ord("D"):
-//       sprite_index = KlaraRunD;
-//    break;
-
-//    case ord("A"):
-//       sprite_index = KlaraRunA;
-//    break;
-//}
 }

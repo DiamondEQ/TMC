@@ -10,6 +10,7 @@ DashAlpha = 0;
 
 DashEnabled = true;
 DashSpeed = 7;
+DashSpeedCheck = false; //
 
 DashHitCooldown = 0; // prevents multiple hits per dash
 dashDirX = 0;
@@ -22,5 +23,7 @@ PlayeriFrames = false;
 KlaraCanMove = true; // Blocks movement during knockback
 knockbackX = 0;
 knockbackY = 0;
+
+ProjectileDirection = 270;
 
 visible = true;

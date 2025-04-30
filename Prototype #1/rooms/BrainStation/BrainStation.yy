@@ -22,9 +22,9 @@
     {"name":"GameManagerInstance","path":"rooms/BrainStation/BrainStation.yy",},
     {"name":"PauseButtonInstance","path":"rooms/BrainStation/BrainStation.yy",},
     {"name":"TimeDisplayInstance","path":"rooms/BrainStation/BrainStation.yy",},
-    {"name":"FadeOut","path":"rooms/BrainStation/BrainStation.yy",},
     {"name":"MTutorial","path":"rooms/BrainStation/BrainStation.yy",},
     {"name":"KTutorial","path":"rooms/BrainStation/BrainStation.yy",},
+    {"name":"FadeOut","path":"rooms/BrainStation/BrainStation.yy",},
   ],
   "isDnd":false,
   "layers":[

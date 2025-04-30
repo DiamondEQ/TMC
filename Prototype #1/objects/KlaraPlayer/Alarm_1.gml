@@ -1,2 +1,1 @@
-KlaraSpeed = 5;
-PlayeriFrames = false;
+DashSpeedCheck = true;

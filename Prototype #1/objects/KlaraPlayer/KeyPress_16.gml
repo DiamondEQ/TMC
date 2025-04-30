@@ -21,6 +21,7 @@ if (DashEnabled) && (DashKey) {
 		audio_play_sound(DashSound, 1, false);
 		alarm[0] = 60;
 		alarm[1] = 23;
+		alarm[4] = 50;
 	}
 	
 	else // NORMAL DASH BELOW \\
@@ -31,8 +32,9 @@ if (DashEnabled) && (DashKey) {
 		PlayeriFrames = true;
 		DashHitCooldown = 1; // enable hitbox
 		audio_play_sound(DashSound, 1, false);
-		alarm[0] = 300;
+		alarm[0] = 120;
 		alarm[1] = 23;
+		alarm[4] = 50;
 	}
 	
 

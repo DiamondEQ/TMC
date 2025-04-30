@@ -1,0 +1,1 @@
+audio_play_sound(GameTitleMusic, 1, true);
