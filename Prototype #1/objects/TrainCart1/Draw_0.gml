@@ -1,5 +1,5 @@
 draw_self();
-
+/*
 // QuickTime UI Drawing
 if (is_active_repair || ui_result_timer > 0) {
     var ui_x = x + 128;
