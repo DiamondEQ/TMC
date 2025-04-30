@@ -8,10 +8,13 @@ MichaelMaxHP = 3;
 MichaelDamage = 1;
 
 SlashEnabled = true;
+BombEnabled = true;
 
 facing = 0;
 MichaelCanMove = true;
 knockbackX = 0;
 knockbackY = 0;
+
+ProjectileDirection = 270;
 
 visible = true;

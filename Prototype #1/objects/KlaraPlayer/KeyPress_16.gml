@@ -13,7 +13,7 @@ if (DashEnabled) && (DashKey) {
 	
 	if (global.PowerUp = true) // If the Sync Power Up is true then Klaras dashes go further \\
 	{
-		KlaraSpeed = 17;
+		KlaraSpeed = 16;
 		DashAlpha = 1;
 		DashEnabled = false;
 		PlayeriFrames = true;

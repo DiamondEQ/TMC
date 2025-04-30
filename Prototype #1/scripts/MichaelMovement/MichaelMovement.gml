@@ -19,6 +19,7 @@ else if (global.PowerUp = false){MichaelSpeed = 4.5}
 
 if keyboard_check((ord("K"))) {
 	sprite_index = MichaelRunDown;
+	ProjectileDirection = 270;
 }
 
 if keyboard_check_released((ord("K"))) {
@@ -28,6 +29,7 @@ if keyboard_check_released((ord("K"))) {
 //UP
 if keyboard_check((ord("I"))) {
 	sprite_index = MichaelRunUp;
+	ProjectileDirection = 90;
 }
 
 if keyboard_check_released((ord("I"))) {
@@ -37,6 +39,7 @@ if keyboard_check_released((ord("I"))) {
 //RIGHT
 if keyboard_check((ord("L"))) {
 	sprite_index = MichaelRunRight;
+	ProjectileDirection = 0;
 }
 
 if keyboard_check_released((ord("L"))) {
@@ -46,10 +49,15 @@ if keyboard_check_released((ord("L"))) {
 //LEFT
 if keyboard_check((ord("J"))) {
 	sprite_index = MichaelRunLeft;
+	ProjectileDirection = 180;
 }
 
 if keyboard_check_released((ord("J"))) {
 	sprite_index = MichaelIdleLeft;
+}
+
+if (xPos != 0 || yPos != 0){
+	ProjectileDirection = point_direction(0, 0, xPos, yPos)
 }
 
 }

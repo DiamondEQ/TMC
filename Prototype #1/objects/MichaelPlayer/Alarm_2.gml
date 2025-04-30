@@ -1,0 +1,1 @@
+BombEnabled = true;
