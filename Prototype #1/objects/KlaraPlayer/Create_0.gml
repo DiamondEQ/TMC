@@ -9,6 +9,8 @@ DashColor = c_purple;
 DashAlpha = 0;
 
 DashEnabled = true;
+WrenchEnabled = true;
+
 DashSpeed = 7;
 DashSpeedCheck = false; //
 
