@@ -7,5 +7,5 @@ if (!speed == 0)
 else if (speed == 0)
 {
 	WrenchReturn = true;
-	move_towards_point(KlaraPlayer.x, KlaraPlayer.y, 5);
+	move_towards_point(KlaraPlayer.x, KlaraPlayer.y, 14);
 }

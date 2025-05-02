@@ -9,7 +9,7 @@ var JKey = keyboard_check(ord("J"));
 var xPos = LKey - JKey;
 var yPos = KKey - IKey;
 
-
+PointDirection = point_direction(0, 0, xPos, yPos)
 
 move_and_collide(xPos * MichaelSpeed, yPos * MichaelSpeed, Border, 2, 0, 0, MichaelSpeed, MichaelSpeed);
 
@@ -17,44 +17,33 @@ if (global.PowerUp = true){MichaelSpeed = 7.5}
 else if (global.PowerUp = false){MichaelSpeed = 4.5}
 
 
-if keyboard_check((ord("K"))) {
-	sprite_index = MichaelRunDown;
-	ProjectileDirection = 270;
-}
 
-if keyboard_check_released((ord("K"))) {
-	sprite_index = MichaelIdleDown;
-}
+
+// DOWN
+if (PointDirection = 270) {sprite_index = MichaelRunDown; ProjectileDirection = 270;}
+else if keyboard_check_released((ord("K"))) {sprite_index = MichaelIdleDown;}
+
+if (PointDirection = 315) {sprite_index = MichaelRunDownRight;}
+
+if (PointDirection = 225) {sprite_index = MichaelRunDownLeft;}
 
 //UP
-if keyboard_check((ord("I"))) {
-	sprite_index = MichaelRunUp;
-	ProjectileDirection = 90;
-}
+if (PointDirection = 90) {sprite_index = MichaelRunUp; ProjectileDirection = 90;}
+else if keyboard_check_released((ord("I"))) {sprite_index = MichaelIdleUp;}
 
-if keyboard_check_released((ord("I"))) {
-	sprite_index = MichaelIdleUp;
-}
+if (PointDirection = 45) {sprite_index = MichaelRunUpRight;}
+
+if (PointDirection = 135) {sprite_index = MichaelRunUpLeft;}
 
 //RIGHT
-if keyboard_check((ord("L"))) {
-	sprite_index = MichaelRunRight;
-	ProjectileDirection = 0;
-}
 
-if keyboard_check_released((ord("L"))) {
-	sprite_index = MichaelIdleRight;
-}
+if (PointDirection = 0 && keyboard_check((ord("L")))) {sprite_index = MichaelRunRight; ProjectileDirection = 0;}
+else if keyboard_check_released((ord("L"))) && PointDirection = 0 {sprite_index = MichaelIdleRight;}
 
 //LEFT
-if keyboard_check((ord("J"))) {
-	sprite_index = MichaelRunLeft;
-	ProjectileDirection = 180;
-}
 
-if keyboard_check_released((ord("J"))) {
-	sprite_index = MichaelIdleLeft;
-}
+if (PointDirection = 180) {sprite_index = MichaelRunLeft; ProjectileDirection = 180;}
+else if keyboard_check_released((ord("J"))) {sprite_index = MichaelIdleLeft;}
 
 if (xPos != 0 || yPos != 0){
 	ProjectileDirection = point_direction(0, 0, xPos, yPos)

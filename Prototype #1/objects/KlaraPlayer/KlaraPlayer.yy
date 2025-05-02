@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"KlaraIdleS",
-    "path":"sprites/KlaraIdleS/KlaraIdleS.yy",
+    "name":"KlaraIdleDown",
+    "path":"sprites/KlaraIdleDown/KlaraIdleDown.yy",
   },
   "spriteMaskId":null,
   "visible":true,

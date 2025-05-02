@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":5.75161,
+  "duration":4.667211,
   "name":"TrainArrive",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"TrainArrive.wav",
+  "soundFile":"TrainArrive.WAV",
   "type":0,
-  "volume":0.42,
+  "volume":1.0,
 }
