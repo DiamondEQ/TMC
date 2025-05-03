@@ -1,0 +1,1 @@
+y = y + sin(current_time * 0.001) * 0.15

@@ -2,7 +2,7 @@
 
 if (instance_number(EnemyHandler) < EnemyLimit) 
 {
-	instance_create_layer(random_range(79, 1255), random_range(805, 850),"Instances",AwakenedBugtive);
+	instance_create_layer(irandom_range(79, 1255), irandom_range(805, 850),"Instances",AwakenedBugtive);
 
 	alarm[4] = 400;
 }

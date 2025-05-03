@@ -12,8 +12,8 @@
   "duration":32.206078,
   "name":"GameTitleMusic",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"MusicTracks",
+    "path":"folders/Sounds/MusicTracks.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

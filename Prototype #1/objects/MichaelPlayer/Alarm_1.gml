@@ -1,3 +1,5 @@
+image_blend = c_white
+
 if (global.MichaelHP = 0)
 {
 	MichaelSpeed = 0;

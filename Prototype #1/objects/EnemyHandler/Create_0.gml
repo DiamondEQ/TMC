@@ -1,6 +1,6 @@
 // Code for the enemies in the game
-TargetX = x;
-TargetY = y;
+var RandomX = choose(irandom_range(140, 1250), irandom_range(140, 1250))
+TargetX = RandomX;
 
 knockbackX = 0;
 knockbackY = 0;

@@ -2,7 +2,6 @@
 //var xVer = clamp(TargetY - y, -1, 1);
 
 
-move_towards_point(TrainHandler.x, TrainHandler.y, EnemySpeed)
 
 if (EnemyHP == 0)
 {
@@ -16,6 +15,6 @@ if (knockback_timer > 0) {
 	knockback_timer -= 1;
 } else {
 	// Regular movement to TrainHandler
-	move_towards_point(TrainHandler.x, TrainHandler.y, EnemySpeed);
+	move_towards_point(TargetX, TrainHandler.y, EnemySpeed);
 }
 

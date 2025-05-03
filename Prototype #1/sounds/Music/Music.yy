@@ -12,8 +12,8 @@
   "duration":156.83917,
   "name":"Music",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"MusicTracks",
+    "path":"folders/Sounds/MusicTracks.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

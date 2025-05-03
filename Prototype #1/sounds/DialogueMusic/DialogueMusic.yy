@@ -12,8 +12,8 @@
   "duration":38.707664,
   "name":"DialogueMusic",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"MusicTracks",
+    "path":"folders/Sounds/MusicTracks.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

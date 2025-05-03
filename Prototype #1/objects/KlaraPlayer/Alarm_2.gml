@@ -1,3 +1,5 @@
+image_blend = c_white;
+
 if (global.KlaraHP = 0)
 {
 	KlaraSpeed = 0;

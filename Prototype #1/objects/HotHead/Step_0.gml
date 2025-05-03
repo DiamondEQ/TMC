@@ -6,7 +6,7 @@ if instance_exists(MichaelPlayer){
 }
 else
 {
-	move_towards_point(TrainHandler.x, TrainHandler.y, EnemySpeed)
+	move_towards_point(irandom_range(140, 1250), TrainHandler.y, EnemySpeed)
 }
 
 if (EnemyHP == 0)
