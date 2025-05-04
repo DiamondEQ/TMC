@@ -8,6 +8,6 @@ alarm[1] = 160; // Normal Projectiles
 alarm[2] = 300; // Tracking Projectiles
 alarm[3] = 500; // Horde of Bugtives
 
-alarm[4] = 200; // LeftWorm Spawn
+alarm[4] = 900; // LeftWorm Spawn
 
 visible = true;

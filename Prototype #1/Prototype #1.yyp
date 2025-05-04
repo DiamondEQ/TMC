@@ -235,6 +235,7 @@
     {"id":{"name":"sLeftWall","path":"sprites/sLeftWall/sLeftWall.yy",},},
     {"id":{"name":"sLiveWire","path":"sprites/sLiveWire/sLiveWire.yy",},},
     {"id":{"name":"sMegaWorm","path":"sprites/sMegaWorm/sMegaWorm.yy",},},
+    {"id":{"name":"sMegaWorm2","path":"sprites/sMegaWorm2/sMegaWorm2.yy",},},
     {"id":{"name":"sMichael","path":"sprites/sMichael/sMichael.yy",},},
     {"id":{"name":"sMichaelDead","path":"sprites/sMichaelDead/sMichaelDead.yy",},},
     {"id":{"name":"sOptions","path":"sprites/sOptions/sOptions.yy",},},

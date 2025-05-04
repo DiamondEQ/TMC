@@ -8,6 +8,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"BombExplosion","path":"objects/BombExplosion/BombExplosion.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"EnemyHandler","path":"objects/EnemyHandler/EnemyHandler.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"BossWorm2",
@@ -41,8 +42,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sMegaWorm",
-    "path":"sprites/sMegaWorm/sMegaWorm.yy",
+    "name":"sMegaWorm2",
+    "path":"sprites/sMegaWorm2/sMegaWorm2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
