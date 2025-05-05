@@ -1,4 +1,14 @@
 draw_self();
+
+
+if (global.TrainHitAlpha > 0) {
+	shader_set(ColorEffect);
+	
+	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, global.TrainHitColor, global.TrainHitAlpha);
+	
+	shader_reset();
+}
+
 /*
 // QuickTime UI Drawing
 if (is_active_repair || ui_result_timer > 0) {

@@ -1,3 +1,5 @@
+if (global.TrainHitAlpha > 0) { global.TrainHitAlpha -= 0.01;}
+
 if (!is_active_repair) exit;
 
 if (repair_type == 2) {

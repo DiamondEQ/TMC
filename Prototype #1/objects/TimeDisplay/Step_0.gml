@@ -55,7 +55,7 @@ if (GameTimeSeconds == 30 && GameTimeMinutes == 1) // I will add a special event
 	 global.TimerValue = 160;
 }
 
-if (GameTimeSeconds == 00 && GameTimeMinutes == 0) // I will add a special event for the boss later
+if (GameTimeSeconds == 00 && GameTimeMinutes == 0) // Ending
 {
-	room_goto(WinScreen)
+	GameComplete = true;
 }

@@ -1,4 +1,4 @@
-
+image_angle += 5
 
 if (EnemyHP == 0)
 {

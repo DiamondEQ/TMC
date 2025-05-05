@@ -1,5 +1,26 @@
-global.TrainHp -= 1;
-instance_destroy(other);
+
+if (train_iframes == false)
+{
+	if (global.TrainHp == 1)
+	{
+		is_game_over = true
+		train_iframes = true;
+		global.TrainHp -= 1;
+		audio_play_sound(TrainDestroyed, 1, false)
+		audio_play_sound(WarningSound, 1, false);
+		instance_destroy(other);
+	}
+	else 
+	{
+		is_game_over = false
+		global.TrainHp -= 1;
+		global.TrainHitAlpha = 1;
+		audio_play_sound(TrainHit, 1, false)
+		instance_destroy(other);
+		train_iframes = true;
+		alarm[0] = 60;
+	}
+}
 
 // Get all cart instances and deactivate them
 with (TrainCart1) is_active_repair = false;

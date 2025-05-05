@@ -1,7 +1,7 @@
 {
   "$GMShader":"",
-  "%Name":"DashEffect",
-  "name":"DashEffect",
+  "%Name":"ColorEffect",
+  "name":"ColorEffect",
   "parent":{
     "name":"Shaders",
     "path":"folders/Shaders.yy",
