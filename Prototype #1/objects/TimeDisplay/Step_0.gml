@@ -55,7 +55,19 @@ if (GameTimeSeconds == 30 && GameTimeMinutes == 1) // I will add a special event
 	 global.TimerValue = 160;
 }
 
-if (GameTimeSeconds == 00 && GameTimeMinutes == 0) // Ending
+if (FadeActive == true)
 {
-	GameComplete = true;
+	ScreenFade.image_alpha += 0.005
 }
+
+if (ScreenFade.image_alpha >= 1)
+{
+	if (FadeActive) 
+	{
+		alarm[2] = 45;
+	}
+	
+	FadeActive = false;
+}
+
+

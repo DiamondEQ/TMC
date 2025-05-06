@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"KlaraPTest1",
-    "path":"sprites/KlaraPTest1/KlaraPTest1.yy",
+    "name":"KlaraVDefault",
+    "path":"sprites/KlaraVDefault/KlaraVDefault.yy",
   },
   "spriteMaskId":null,
   "visible":true,

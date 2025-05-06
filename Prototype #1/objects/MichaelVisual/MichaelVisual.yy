@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"MichaelPTest",
-    "path":"sprites/MichaelPTest/MichaelPTest.yy",
+    "name":"MichaelVDefault",
+    "path":"sprites/MichaelVDefault/MichaelVDefault.yy",
   },
   "spriteMaskId":null,
   "visible":true,

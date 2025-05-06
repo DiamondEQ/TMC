@@ -22,15 +22,9 @@ if !(GameTimeSeconds == 0 && GameTimeMinutes == 0) // if the timer didn't reach 
 }
 else
 {
-	if (GameComplete = true)
-	{
-		GameComplete = false;
-		//if (global.TrainHp == 3){room_goto(WinScreen)}
-		//else if (global.TrainHp < 3){room_goto(WinScreen)} // Neutral Ending goes here
-	}
-	
+	//GameComplete = true;
+	alarm[1] = 5;
 	show_debug_message("Timer Ran out");
-	alarm[0] = 2;
 }
 
 
