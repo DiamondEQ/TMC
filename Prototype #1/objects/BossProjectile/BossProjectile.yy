@@ -6,11 +6,13 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"MichaelPlayer","path":"objects/MichaelPlayer/MichaelPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"BossWorm1","path":"objects/BossWorm1/BossWorm1.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"BossWorm2","path":"objects/BossWorm2/BossWorm2.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"BossProjectile",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyHandler","path":"objects/EnemyHandler/EnemyHandler.yy",},"propertyId":{"name":"EnemySpeed","path":"objects/EnemyHandler/EnemyHandler.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"6",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyHandler","path":"objects/EnemyHandler/EnemyHandler.yy",},"propertyId":{"name":"EnemySpeed","path":"objects/EnemyHandler/EnemyHandler.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5.7",},
   ],
   "parent":{
     "name":"Enemies",

@@ -7,5 +7,6 @@ if (!speed == 0)
 else if (speed == 0)
 {
 	WrenchReturn = true;
-	move_towards_point(KlaraPlayer.x, KlaraPlayer.y, 14);
+	if (instance_exists(KlaraPlayer)){move_towards_point(KlaraPlayer.x, KlaraPlayer.y, 14);}
+	else {instance_destroy()}
 }

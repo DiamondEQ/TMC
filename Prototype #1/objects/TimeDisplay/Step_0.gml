@@ -43,7 +43,7 @@ if (GameTimeSeconds == 00 && GameTimeMinutes == 3)
 	 show_debug_message("Phase 5 Start")
 	 EnemySpawner.alarm[5] = 60;
 	 EnemySpawner.EnemyLimit = 40;
-	 global.TimerValue = 150;
+	 global.TimerValue = 90;
 }
 
 // WAVE FINAL \\
