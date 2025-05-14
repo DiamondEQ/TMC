@@ -12,3 +12,4 @@ if (alarm[1] > 0) {
     knockbackX = 0;
     knockbackY = 0;
 }
+

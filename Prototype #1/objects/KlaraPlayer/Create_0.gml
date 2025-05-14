@@ -5,7 +5,8 @@ global.KlaraHP = 3;
 global.KlaraAlive = true;
 KlaraMaxHP = 3;
 
-DashColor = c_purple;
+DashHex = $9767f5;
+DashColor = DashHex;//c_purple;
 DashAlpha = 0;
 
 DashEnabled = true;

@@ -5,6 +5,7 @@ Tutorial2.alarm[0] = 60
 
 GameManager.alarm[0] = 420;
 ItemSpawner.alarm[0] = 420;
+IHItemSpawner.alarm[0] = 800;
 TimeDisplay.alarm[0] = 420;
 EnemySpawner.alarm[0] = 420; 
 

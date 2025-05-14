@@ -7,16 +7,32 @@ var JKey = keyboard_check(ord("J"));
 
 var HorizontalKeys = real(keyboard_check(ord("J"))) - real(keyboard_check(ord("L")))
 var VerticalKeys = real(keyboard_check(ord("K"))) - real(keyboard_check(ord("I")))
+var AttackKey = keyboard_check(vk_enter);
+var BombKey = keyboard_check(vk_rshift);
 
-
-
-if (HorizontalKeys != 0 or VerticalKeys != 0)
+// Setting up console controllers \\
+var Player1Gamepad = global.GamepadMichael
+if (Player1Gamepad != undefined)
 {
-	facing = point_direction(0, 0, VerticalKeys, HorizontalKeys);
+	HorizontalKeys = gamepad_axis_value(Player1Gamepad, gp_axislh);
+	VerticalKeys = gamepad_axis_value(Player1Gamepad, gp_axislv);
+	AttackKey = gamepad_button_check(Player1Gamepad, gp_face1);
+	BombKey = gamepad_button_check(Player1Gamepad, gp_face2);
+
+}
+else
+{
+	HorizontalKeys = real(keyboard_check(ord("J"))) - real(keyboard_check(ord("L")))
+	VerticalKeys = real(keyboard_check(ord("K"))) - real(keyboard_check(ord("I")))
+	AttackKey = keyboard_check(vk_enter);
+	BombKey = keyboard_check(vk_rshift);
 }
 
 
-var AttackKey = keyboard_check(vk_enter);
+if (HorizontalKeys != 0 or VerticalKeys != 0) && (Player1Gamepad == undefined) {facing = point_direction(0, 0, VerticalKeys, HorizontalKeys);}
+else if (HorizontalKeys != 0 or VerticalKeys != 0) && (Player1Gamepad != undefined) {facing = point_direction(0, 0, VerticalKeys, -HorizontalKeys);}
+
+
 
 if (SlashEnabled && AttackKey) { // Cooldown system for the dashing, If the dash key is pressed, toggle the cooldown and flash effect
 	SlashEnabled = false;
@@ -29,3 +45,4 @@ if (SlashEnabled && AttackKey) { // Cooldown system for the dashing, If the dash
 	
 	}
 }
+

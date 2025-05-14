@@ -8,13 +8,25 @@ var JKey = keyboard_check(ord("J"));
 
 var xPos = LKey - JKey;
 var yPos = KKey - IKey;
+// Setting up console controllers \\
+var Player1Gamepad = global.GamepadMichael
+if (Player1Gamepad != undefined)
+{
+	xPos = gamepad_axis_value(Player1Gamepad, gp_axislh);
+	yPos = gamepad_axis_value(Player1Gamepad, gp_axislv);
+}
+else 
+{
+	xPos = LKey - JKey;
+	yPos = KKey - IKey;
+}
 
 PointDirection = point_direction(0, 0, xPos, yPos)
 
 move_and_collide(xPos * MichaelSpeed, yPos * MichaelSpeed, Border, 2, 0, 0, MichaelSpeed, MichaelSpeed);
 
 if (global.PowerUp = true){MichaelSpeed = 7.5}
-else if (global.PowerUp = false){MichaelSpeed = 4.5}
+//else if (global.PowerUp = false){MichaelSpeed = 4.5}
 
 
 
