@@ -1,0 +1,3 @@
+//TURN OFF
+AlphaLoopFadeIn = false;
+

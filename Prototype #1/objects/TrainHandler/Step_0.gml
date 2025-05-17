@@ -5,3 +5,23 @@ if (is_game_over) {
         GameOverScript();
     }
 }
+
+if (MagnitudeActive == true)
+{
+	ShakeMagnitude -= 0.5
+	if (ShakeMagnitude <= 0)
+	{
+		MagnitudeActive = false;
+		ShakeMagnitude = 10;
+		layer_clear_fx("ShakeLayer");
+	}
+}
+
+if (TrainWarningActive == true)
+{
+	TrainWarningAlpha += 0.01
+	if (TrainWarningAlpha >= 1)
+	{
+		TrainWarningActive = false;
+	}
+}

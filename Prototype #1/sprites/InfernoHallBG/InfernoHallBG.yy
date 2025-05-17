@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"536d4a04-3de8-4a84-be64-b5c508ab6ec3","name":"536d4a04-3de8-4a84-be64-b5c508ab6ec3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"596e6274-fb51-423f-bca7-76a0d7cc9199","name":"596e6274-fb51-423f-bca7-76a0d7cc9199","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":768,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"02580cf5-8793-4f8f-925f-3b04badfe110","blendMode":0,"displayName":"default","isLocked":false,"name":"02580cf5-8793-4f8f-925f-3b04badfe110","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"14e66d3f-85f2-43e1-b3bd-ba46d2a53f49","blendMode":0,"displayName":"default","isLocked":false,"name":"14e66d3f-85f2-43e1-b3bd-ba46d2a53f49","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"InfernoHallBG",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"536d4a04-3de8-4a84-be64-b5c508ab6ec3","path":"sprites/InfernoHallBG/InfernoHallBG.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"852dbd4f-6ed2-4982-ba58-0f32f30bf537","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"596e6274-fb51-423f-bca7-76a0d7cc9199","path":"sprites/InfernoHallBG/InfernoHallBG.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f14aca42-3bc4-40fe-95c1-fe7b90b00542","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

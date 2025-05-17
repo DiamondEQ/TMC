@@ -12,6 +12,8 @@ else if (KlaraPlayer.HoldingScrap == true && TrainHandler.is_game_over == true)
 {
 	KlaraPlayer.HoldingScrap = false;
 	TrainHandler.game_over_timer = 240;
+	layer_set_visible("TrainLowLayer", false);
+	TrainWarning.alarm[2] = 10
 	TrainHandler.is_game_over = false;
 	TrainHandler.train_iframes = false;
 	audio_play_sound(TrainFixedSound, 1, false);
