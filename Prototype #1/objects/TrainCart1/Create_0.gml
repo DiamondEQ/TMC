@@ -10,3 +10,5 @@ ui_result_timer = 0;
 
 global.TrainHitColor = c_black;
 global.TrainHitAlpha = 0
+global.TrainLerp = true;
+

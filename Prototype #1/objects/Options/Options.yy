@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sOptions",
-    "path":"sprites/sOptions/sOptions.yy",
+    "name":"sHiddenMode",
+    "path":"sprites/sHiddenMode/sHiddenMode.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,3 +1,3 @@
 randomize()
 
-alarm[1] = 1200;
+//alarm[1] = 1200;

@@ -7,4 +7,3 @@ is_active_repair = false;
 
 ui_show_result = -1; // -1 = neutral, 0 = wrong, 1 = correct
 ui_result_timer = 0;
-

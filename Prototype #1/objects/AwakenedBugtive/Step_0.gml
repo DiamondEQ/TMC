@@ -14,3 +14,5 @@ if (knockback_timer > 0) {
 	// Regular movement to TrainHandler
 	move_towards_point(TrainHandler.x, TrainHandler.y, EnemySpeed);
 }
+
+if (DashAlpha > 0) { DashAlpha -= 0.02;}

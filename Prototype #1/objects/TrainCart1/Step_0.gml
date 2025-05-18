@@ -1,5 +1,23 @@
 if (global.TrainHitAlpha > 0) { global.TrainHitAlpha -= 0.01;}
 
+if (global.TrainLerp == true)
+{
+	if (abs(x - 152) > 0.5 || abs(y - 17) > 0.5)
+	{
+		x = lerp(x, 152, 0.03);
+		y = lerp(y, 17, 0.03);
+		show_debug_message("Current X: " + string(x));
+		show_debug_message("Current Y: " + string(y));
+	}
+	else
+	{
+		x = 152;
+		y = 17;
+		global.TrainLerp = false
+	}
+}
+	
+
 //if (!is_active_repair) exit;
 
 //if (repair_type == 1) {

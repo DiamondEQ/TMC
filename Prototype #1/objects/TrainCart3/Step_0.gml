@@ -1,5 +1,20 @@
 if (global.TrainHitAlpha > 0) { global.TrainHitAlpha -= 0.01;}
 
+if (global.TrainLerp == true)
+{
+	if (abs(x - 844) > 0.5 || abs(y - 29) > 0.5)
+	{
+		x = lerp(x, 844, 0.03);
+		y = lerp(y, 29, 0.03);
+	}
+	else
+	{
+		x = 844;
+		y = 29;
+	}
+}
+	
+	
 //if (!is_active_repair) exit;
 
 //if (repair_type == 3) {
