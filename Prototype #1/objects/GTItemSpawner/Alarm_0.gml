@@ -1,3 +1,8 @@
-// SPAWNER FOR ??? \\
+// SPAWNER FOR SPRINKLERS \\
 
-alarm[0] = 800;
+var SprinklerSpawnX = irandom_range(120, 1211);
+var SprinklerSpawnY = irandom_range(338, 699);
+
+instance_create_depth(SprinklerSpawnX, SprinklerSpawnY, 499, Sprinkler);
+
+alarm[0] = 550;
