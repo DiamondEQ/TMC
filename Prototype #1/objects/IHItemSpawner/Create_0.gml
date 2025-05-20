@@ -1,3 +1,3 @@
 randomize()
 
-//alarm[1] = 1200;
+//CanSpawnX = irandom_range(101, 1235);

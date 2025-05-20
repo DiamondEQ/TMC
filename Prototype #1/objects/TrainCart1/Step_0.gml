@@ -6,8 +6,6 @@ if (global.TrainLerp == true)
 	{
 		x = lerp(x, 152, 0.03);
 		y = lerp(y, 17, 0.03);
-		show_debug_message("Current X: " + string(x));
-		show_debug_message("Current Y: " + string(y));
 	}
 	else
 	{

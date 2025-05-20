@@ -1,9 +1,10 @@
 if (EnemyHP == 0)
 {
-	audio_play_sound(EnemyHit, 1, false);
-	instance_destroy();
-	var Explosion = instance_create_depth(x, y, depth - 100, EnemyExplosion); 
+	audio_play_sound(MichaelExplosion, 1, false, 1, 0, 0.5);
+	var Explosion = instance_create_depth(x, y, depth, EnemyExplosion); 
 	Explosion.owner = id; 
+	instance_destroy();
+
 }
 
 if (knockback_timer > 0) {

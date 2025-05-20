@@ -39,7 +39,7 @@ if (SlashEnabled && AttackKey) { // Cooldown system for the dashing, If the dash
 	var SwordSpawn = instance_create_depth(x, y, depth - 100, SwordSlash); // Spawns the sword
 	SwordSpawn.owner = id; // Give the sword a reference to Michael
 	
-	audio_play_sound(SwordSlashSound, 1, false); // Plays sword swing lol
+	audio_play_sound(SwordSlashSound, 1, false, 1, 0, random_range(1.4, 0.7)); // Plays sword swing lol
 	
 	alarm[0] = 30; // Slash cooldown
 	

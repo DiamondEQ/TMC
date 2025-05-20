@@ -17,4 +17,6 @@ knockbackY = 0;
 
 ProjectileDirection = 270;
 
+PlayeriFrames = false;
+
 visible = true;

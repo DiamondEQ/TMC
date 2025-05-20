@@ -37,5 +37,4 @@ if (DashEnabled) && (DashKey) {
 		alarm[4] = 50;
 	}
 	
-
 }
