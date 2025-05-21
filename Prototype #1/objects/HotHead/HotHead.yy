@@ -9,7 +9,7 @@
   "managed":true,
   "name":"HotHead",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyHandler","path":"objects/EnemyHandler/EnemyHandler.yy",},"propertyId":{"name":"EnemySpeed","path":"objects/EnemyHandler/EnemyHandler.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyHandler","path":"objects/EnemyHandler/EnemyHandler.yy",},"propertyId":{"name":"EnemySpeed","path":"objects/EnemyHandler/EnemyHandler.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2.8",},
   ],
   "parent":{
     "name":"Enemies",

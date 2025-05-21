@@ -1,6 +1,7 @@
 // Main variables will go here such as HP, Player Speed, and other things.
 MichaelSpeed = 4.5;
 MichaelBaseSpeed = 4.5;
+CurrentPlayerSpeed = 4.5;
 global.MichaelHP = 3;
 global.MichaelAlive = true;
 MichaelMaxHP = 3;
@@ -20,3 +21,6 @@ ProjectileDirection = 270;
 PlayeriFrames = false;
 
 visible = true;
+
+SoggyHex = $353366;
+SoggyColor = SoggyHex;

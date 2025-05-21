@@ -1,12 +1,13 @@
 // Main variables will go here such as HP, Player Speed, and other things.
 KlaraSpeed = 5;
-MichaelBaseSpeed = 5;
+KlaraBaseSpeed = 5;
+CurrentPlayerSpeed = 5;
 global.KlaraHP = 3;
 global.KlaraAlive = true;
 KlaraMaxHP = 3;
 
 DashHex = $9767f5;
-DashColor = DashHex;//c_purple;
+DashColor = DashHex;
 DashAlpha = 0;
 
 DashEnabled = true;
@@ -30,3 +31,6 @@ knockbackY = 0;
 ProjectileDirection = 270;
 
 visible = true;
+
+SoggyHex = $353366;
+SoggyColor = SoggyHex;

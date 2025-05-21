@@ -1,0 +1,1 @@
+if (x > 1504){instance_destroy(); show_debug_message("deleted Cloud")}

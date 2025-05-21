@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SwordSwing",
-    "path":"sprites/SwordSwing/SwordSwing.yy",
+    "name":"sSwordSwing",
+    "path":"sprites/sSwordSwing/sSwordSwing.yy",
   },
   "spriteMaskId":null,
   "visible":true,

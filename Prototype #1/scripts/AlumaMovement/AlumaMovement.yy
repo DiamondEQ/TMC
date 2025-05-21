@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"AlumaMovement",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"AlumaMovement",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

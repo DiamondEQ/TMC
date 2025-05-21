@@ -12,6 +12,7 @@ audio_stop_sound(Music3);
 audio_play_sound(BossMusic, 1, true);
 Warning.alarm[2] = 450
 if(instance_exists(IHItemSpawner)) {instance_destroy(IHItemSpawner)}
+if(instance_exists(GTItemSpawner)) {instance_destroy(GTItemSpawner)}
 instance_destroy()
 
 

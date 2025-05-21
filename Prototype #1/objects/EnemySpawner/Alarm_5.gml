@@ -2,8 +2,8 @@
 
 if (instance_number(EnemyHandler) < EnemyLimit) 
 {
-	instance_create_layer(irandom_range(79, 1255), irandom_range(805, 850),"Instances",AwakenedBugtive);
-
+	instance_create_depth(irandom_range(79, 1255), irandom_range(805, 850), 500, AwakenedBugtive);
+	instance_create_depth(irandom_range(79, 1255), irandom_range(805, 850), 500, Bombtive);
 	alarm[5] = 400;
 }
 else 

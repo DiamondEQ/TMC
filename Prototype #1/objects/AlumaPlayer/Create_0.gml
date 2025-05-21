@@ -11,7 +11,7 @@ SlashEnabled = true;
 BombEnabled = true;
 
 facing = 0;
-MichaelCanMove = true;
+AlumaCanMove = true;
 knockbackX = 0;
 knockbackY = 0;
 

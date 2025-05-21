@@ -59,7 +59,6 @@ else // Function for keyboard movement
 
 	move_and_collide(xPos * MichaelSpeed, yPos * MichaelSpeed, Border, 2, 0, 0, MichaelSpeed, MichaelSpeed);
 
-	if (global.PowerUp = true){MichaelSpeed = 7.5}
 
 	// DOWN
 	if (PointDirection = 270) {sprite_index = MichaelRunDown; ProjectileDirection = 270;}

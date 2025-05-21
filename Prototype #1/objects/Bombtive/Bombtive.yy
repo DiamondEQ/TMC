@@ -7,7 +7,7 @@
   "managed":true,
   "name":"Bombtive",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyHandler","path":"objects/EnemyHandler/EnemyHandler.yy",},"propertyId":{"name":"EnemySpeed","path":"objects/EnemyHandler/EnemyHandler.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.7",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyHandler","path":"objects/EnemyHandler/EnemyHandler.yy",},"propertyId":{"name":"EnemySpeed","path":"objects/EnemyHandler/EnemyHandler.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.4",},
   ],
   "parent":{
     "name":"Enemies",

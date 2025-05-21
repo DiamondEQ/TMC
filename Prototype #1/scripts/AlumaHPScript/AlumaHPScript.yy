@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"AlumaHPScript",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"AlumaHPScript",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

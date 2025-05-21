@@ -1,3 +1,5 @@
+image_angle += 10;
+
 move_towards_point(SpitX, TrainHandler.y, EnemySpeed)
 
 if (EnemyHP == 0)

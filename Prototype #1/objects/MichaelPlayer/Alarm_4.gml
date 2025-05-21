@@ -1,1 +1,2 @@
-MichaelSpeed = 4.5;
+MichaelSpeed = CurrentPlayerSpeed;
+image_blend = c_white;
