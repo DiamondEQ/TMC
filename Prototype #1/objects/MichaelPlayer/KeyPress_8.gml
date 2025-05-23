@@ -1,4 +1,4 @@
-var BombKey = keyboard_check_pressed(vk_rshift);
+var BombKey = keyboard_check_pressed(vk_backspace);
 
 if (BombEnabled) && (BombKey) {
 
