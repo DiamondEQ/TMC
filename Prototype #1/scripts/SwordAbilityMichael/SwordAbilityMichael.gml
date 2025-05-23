@@ -17,7 +17,7 @@ if (Player1Gamepad != undefined)
 	HorizontalKeys = gamepad_axis_value(Player1Gamepad, gp_axislh);
 	VerticalKeys = gamepad_axis_value(Player1Gamepad, gp_axislv);
 	AttackKey = gamepad_button_check(Player1Gamepad, gp_face1);
-//	BombKey = gamepad_button_check(Player1Gamepad, gp_face2);
+	BombKey = gamepad_button_check(Player1Gamepad, gp_face2);
 
 }
 else
@@ -25,7 +25,7 @@ else
 	HorizontalKeys = real(keyboard_check(ord("J"))) - real(keyboard_check(ord("L")))
 	VerticalKeys = real(keyboard_check(ord("K"))) - real(keyboard_check(ord("I")))
 	AttackKey = keyboard_check(vk_enter);
-//	BombKey = keyboard_check(vk_rshift);
+	BombKey = keyboard_check(vk_backspace);
 }
 
 
