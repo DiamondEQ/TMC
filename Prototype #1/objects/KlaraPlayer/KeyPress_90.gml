@@ -1,4 +1,4 @@
-var DashKey = keyboard_check_pressed(vk_lshift);
+var DashKey = keyboard_check_pressed(ord("Z"));
 
 if (DashEnabled) && (DashKey) {
 	

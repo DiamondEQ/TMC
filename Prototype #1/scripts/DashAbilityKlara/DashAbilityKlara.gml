@@ -9,7 +9,7 @@ var xPos = DKey - AKey;
 var yPos = SKey - WKey;
 
 // Read Above \\ 
-var DashKey = keyboard_check_pressed(vk_lshift);
+var DashKey = keyboard_check(vk_lshift);
 
 DashCooldown = time_source_create(time_source_game, 3, time_source_units_seconds,function()
 {

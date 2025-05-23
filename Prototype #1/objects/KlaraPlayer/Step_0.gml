@@ -29,10 +29,6 @@ if (PlayeriFrames && DashHitCooldown > 0) {
 if (DashAlpha > 0) { DashAlpha -= 0.02;} // Make the flash effect fade out
 
 
-if keyboard_check_pressed(vk_backspace)
-{
-	show_debug_overlay(true);
-}
 
 if (alarm[2] > 0) {
 	KlaraCanMove = false;
