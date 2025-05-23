@@ -1,1 +1,1 @@
-room_goto(GameOver)
+room_goto(GameOverFrenzy)

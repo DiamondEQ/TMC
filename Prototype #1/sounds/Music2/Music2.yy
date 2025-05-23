@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":128.02608,
+  "duration":116.308754,
   "name":"Music2",
   "parent":{
     "name":"MusicTracks",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Music2.mp3",
+  "soundFile":"Music2.WAV",
   "type":0,
   "volume":1.0,
 }

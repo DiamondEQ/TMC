@@ -14,7 +14,8 @@ else {
 
 	else
 	{
-		move_towards_point(TargetX, TrainHandler.y, EnemySpeed)
+		if instance_exists(AlumaPlayer){move_towards_point(AlumaPlayer.x, AlumaPlayer.y, EnemySpeed)}
+		else {move_towards_point(TargetX, TrainHandler.y, EnemySpeed)}
 	}
 
 	if (EnemyHP == 0)

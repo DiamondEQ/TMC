@@ -1,1 +1,0 @@
-if (instance_exists(KlaraPlayer)){KlaraPlayer.WrenchEnabled = true;}

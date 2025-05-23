@@ -1,12 +1,12 @@
 audio_play_sound(StationIntro, 1, false)
-Tutorial1.alarm[0] = 60
-Tutorial2.alarm[0] = 60
+Tutorial1F.alarm[0] = 60
+Tutorial2F.alarm[0] = 60
 
 
 GameManagerFRENZY.alarm[0] = 420;
-ItemSpawner.alarm[0] = 420;
 TimeDisplay.alarm[0] = 420;
-EnemySpawner.alarm[0] = 420; 
+ItemSpawnerFRENZY.alarm[0] = 420;
+EnemySpawnerFRENZY.alarm[0] = 420; 
 
 global.TrainHp = 3;
 layer_set_visible("TrainLowLayer", false);

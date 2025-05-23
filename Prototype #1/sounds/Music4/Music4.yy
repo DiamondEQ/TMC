@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Music4",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":96.15383,
+  "name":"Music4",
+  "parent":{
+    "name":"MusicTracks",
+    "path":"folders/Sounds/MusicTracks.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Music4.WAV",
+  "type":0,
+  "volume":1.0,
+}

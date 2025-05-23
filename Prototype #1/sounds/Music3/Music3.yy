@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":76.82608,
+  "duration":45.37179,
   "name":"Music3",
   "parent":{
     "name":"MusicTracks",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Music3.mp3",
+  "soundFile":"Music3.WAV",
   "type":0,
   "volume":1.0,
 }

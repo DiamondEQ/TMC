@@ -1,4 +1,3 @@
-
 if (train_iframes == false)
 {
 	if (global.TrainHp == 1)

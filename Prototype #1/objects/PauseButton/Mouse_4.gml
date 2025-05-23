@@ -8,6 +8,7 @@ if (ButtonInteract == false)
 		audio_pause_sound(Music);
 		audio_pause_sound(Music2);
 		audio_pause_sound(Music3);
+		audio_pause_sound(Music4);
 		audio_pause_sound(BossMusic);
 		instance_create_depth(692, 384, 509, OptionsBackground);
 		instance_create_depth(751, 279, 508, BackToMenuPaused);
@@ -26,6 +27,7 @@ if (ButtonInteract == false)
 		audio_resume_sound(Music);
 		audio_resume_sound(Music2);
 		audio_resume_sound(Music3);
+		audio_resume_sound(Music4);
 		audio_resume_sound(BossMusic);
 		instance_destroy(OptionsBackground);
 		instance_destroy(BackToMenuPaused);

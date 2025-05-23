@@ -1,12 +1,12 @@
-KlaraHPScript()
+TMCHPScript()
 AlumaHPScript()
 TrainHPScript()
 
 // Klara's Scrap holding icon \\ 
 
-if (global.KlaraAlive == true)
+if (global.TMCAlive == true)
 {
-	if (KlaraPlayer.HoldingScrap == true)
+	if (TMCPlayer.HoldingScrap == true)
 	{
 		draw_sprite_ext(sScrap, 1, 93, 174, 0.7, 0.7, 0, c_white, 1);
 	}
@@ -16,7 +16,7 @@ if (global.KlaraAlive == true)
 		// Erase the sprite
 	}
 	
-	if (KlaraPlayer.DashEnabled == true)
+	if (TMCPlayer.DashEnabled == true)
 	{
 		draw_sprite_ext(DashIcon, 1, 21, 174, 0.8, 0.8, 0, c_white, 1);
 	}
@@ -31,7 +31,7 @@ if (global.AlumaAlive == true)
 {
 	if (AlumaPlayer.BombEnabled == true)
 	{
-		draw_sprite_ext(sBomb, 1, 21, 81, 0.7, 0.7, 0, c_white, 1);
+		draw_sprite_ext(sSurge, 1, 21, 81, 0.7, 0.7, 0, c_white, 1);
 	}
 	
 	else

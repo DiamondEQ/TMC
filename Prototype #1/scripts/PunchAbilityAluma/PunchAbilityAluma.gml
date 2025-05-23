@@ -25,7 +25,7 @@ else
 	HorizontalKeys = real(keyboard_check(ord("J"))) - real(keyboard_check(ord("L")))
 	VerticalKeys = real(keyboard_check(ord("K"))) - real(keyboard_check(ord("I")))
 	AttackKey = keyboard_check(vk_enter);
-	BombKey = keyboard_check(vk_rshift);
+	BombKey = keyboard_check(vk_backspace);
 }
 
 

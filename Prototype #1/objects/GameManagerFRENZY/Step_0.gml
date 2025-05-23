@@ -1,4 +1,4 @@
-if (global.AlumaAlive == false && global.KlaraAlive == false ){event_user(0);} // Game over code goes in here
+if (global.AlumaAlive == false && global.TMCAlive == false ){event_user(0);} // Game over code goes in here
 
 // Respawn Mechanic
 else if (global.AlumaAlive == false)
@@ -10,12 +10,12 @@ else if (global.AlumaAlive == false)
 	}
 }
 
-else if (global.KlaraAlive == false)
+else if (global.TMCAlive == false)
 {
-	if (AlumaRespawn == false)
+	if (TMCRespawn == false)
 	{
 		alarm[2] = 600;
-		AlumaRespawn = true;
+		TMCRespawn = true;
 	}
 }
 
