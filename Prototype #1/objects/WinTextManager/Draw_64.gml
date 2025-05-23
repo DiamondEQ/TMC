@@ -3,7 +3,7 @@ draw_set_font(GameFont)
 draw_set_color(CurrentColor)
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
-draw_text(850, 180, "Click To Proceed");
+draw_text(825, 180, "Click To Proceed");
 draw_text_ext(110, 69, MessageDisplay, 30, 800);
 
 
